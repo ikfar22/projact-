@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Prompt', 'Inter', 'Segoe UI', system-ui, sans-serif;
+  background-color: #F8FAFC;
+  color: #0f172a;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.35s ease-out forwards;
+}

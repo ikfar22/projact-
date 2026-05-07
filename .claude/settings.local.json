@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(mkdir -p data)",
+      "Bash(node seed.js)",
+      "Bash(node -e ' *)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(node server.js)",
+      "Bash(curl -s http://localhost:3000/api/health)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl -s http://127.0.0.1:5173)",
+      "Bash(curl *)",
+      "Read(//tmp/**)",
+      "Bash(pkill -f \"node server.js\")",
+      "Bash(pkill -f \"vite\")",
+      "Bash(rm -rf \"D:/project ik 5/smartstock-ai/api/data\")",
+      "Bash(mkdir -p \"D:/project ik 5/smartstock-ai/api/data\")"
+    ]
+  }
+}
